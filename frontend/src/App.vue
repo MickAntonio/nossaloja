@@ -21,17 +21,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
-                            <div class="header__top__right__language">
-                                <img src="data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwAwCdASobAA4APm0skkWkIqGYBABABsSxAE6ADcGtd+FD6qAA/vV+Wp4VqyJwr3tsqzUVysGAxh5jK++StlIxrHdqkxyfiwYlcgHy6RWg//tsvaTR2IctDJnOE/5mY93zrj0P0ea+n9DmVodGk7RubcK/qHhB4yLFEzBhQuGAAA=="
-                                    alt="" data-pagespeed-url-hash="2067729225"
-                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                <div>Português</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Português</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
+                            
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Entrar</a>
                             </div>
@@ -44,10 +34,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img
-                                src="data:image/webp;base64,UklGRpgDAABXRUJQVlA4TIwDAAAvdkAMEO/BJpJkK72vXvT4ZqS4w78Aam04jiRJarJ3X/C6wSD8N0lqto0kSak5fjws8o+QCI5hE9m2E36dOGS6bAJrWKJCBH0SkBQ86JkfCJ731Wu9DYoxhk1iYOGSWLi2AMTIUCbp2vbvvU4Zlu97fkrCV1AqChChRlVJEpY17VzODKoiVZlcTPof1Zj/kOHNnMe9fc+x9IOw1RQzNUVBYaC8NAIVKIrgiYj6/3UEbdu22tjRVkQIwcY5lHHsfHMOpv//w84phDxab/0Q0f8JQOGPP35D8ck1dvJ7Sp+/Fpw/57Od+JFSSh+/Kye3OeebPUnpDYCr55xzft6JL1p6i5usn+/Du5TSp5RS+vPpyOU+fEopfTyklNK/Oef7nPPVPiT5TvyVc77bj4NySCm9vs93jznni314LdLrlNL7+6ernHM+2Yfvyivl+mfO+RE7eRCvDym9ur7OOeeLvfhdvH+f0t+XOef8gN38Jl6l9xc55/xwuh/4fkjpx4d/cs755hQ72VtHki9edqfnl+enKO8nF0hycaZvyhaqfRHVqcSQpFMMZVdiAgt9h/LGBBa7okjdVmD8JdqFK21R57mybDoSaiy/QgxcbQsGri7zR9hXoNmuWVhxOjLwuHPOrYokGYStEdrNLNWlB9CaoLBT2qC5HmrTT7ZkErMINei26qha6DEoTnFUB1QOohMcarDfyCoLjvcKI4CO6oDKPUl6ODGvCSI021DtCuAUA8AqM2pbMWEUbFZMgSTtJp2yoHRQHICgxGpBdGiVYYUZBbstjDIVRSUAkdKj9kCSAYAX8xo44beYlLEICoFOcQpLj8zCApgEmzVR0GzglK6OUUythnIAEJVhDYxg/O8ZlAYAgnCr4IWrNyvDFraWEzOkFWxXdYJjNaOYolbxQKc4xUhf0lKOSq+MqzCJ0NQalKVoUGYgKmyE6kpGpXxZ1wSSnGu1CmOJU0YAQTF1lgpsV6EXdJWwKK6gp9oAsEpoa7SsOa7DLNQag0J7JAbFAkBUuLQVpipLhTZsgUWh6wG0hmpoBazCYFrRLgVe6Y57wXYdxk1iUFYOUBuvkPTOeeoAIuWM45MyVYDbAl2FAUdjOFIMYFLGgqj4GnETxLAiDChs3boAIChtAbxgrACzCRpbZFuUD74smAboKReUWmWq0fhNgGacPUnvxhbro3FeLM50kFYxRb3ia6Db6H8TAQ=="
-                                alt="" data-pagespeed-url-hash="3970492880"
-                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        <a href="./index.html" class="logo">NOSSA LOJA
+                               </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -71,10 +59,10 @@
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><router-link to="/carrinho-compras"><i class="fa fa-shopping-bag"></i> <span>3</span></router-link></li>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span>0</span></a></li>
+                            <li><router-link to="/carrinho-compras"><i class="fa fa-shopping-bag"></i> <span>0</span></router-link></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
+                        <div class="header__cart__price">item: <span>$0.00</span></div>
                     </div>
                 </div>
             </div>
@@ -94,17 +82,8 @@
                             <span>Todas as Categorias</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit &amp; Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter &amp; Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya &amp; Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <!-- <li v-for="categoria in categorias" :key="categoria.id"  v-bind:value="categoria.id"><a href="#">{{categoria.nome}}</a></li> -->
+                          
                         </ul>
                     </div>
                 </div>
@@ -220,3 +199,29 @@
 
   </div>
 </template>
+
+<style scoped>
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+</style>
+
+<script>
+export default {
+  async created() {
+    this.isLoading = true;
+
+    try {
+      const { data } = await axios.get(
+        `/categorias`
+      );
+      this.categorias = data;
+    } finally {
+      this.isLoading = false;
+    }
+  },
+ 
+}
+</script>

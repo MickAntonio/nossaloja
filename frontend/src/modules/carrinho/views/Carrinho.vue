@@ -69,7 +69,7 @@
                             <li>Subtotal <span>${{ totalPrice }}</span></li>
                             <li>Total <span>$ {{ totalPrice }}</span></li>
                         </ul>
-                        <button class="primary-btn" :disabled="isCartEmpty ? '' : disabled">FINALIZAR COMPRA</button>
+                        <button type="submit" class="primary-btn" :disabled="isCartEmpty ? '' : disabled">FINALIZAR COMPRA</button>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,9 @@ export default {
   },
    methods:{
       async onSubmit(e) {
+        
         e.preventDefault()
+
         var compra = [];
 
         compra.produtos = this.$store.state.carrinho.items.map((item)=>( {produtoId: item.id, qtd:item.qtd}));
