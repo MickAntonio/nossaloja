@@ -1,6 +1,7 @@
 package com.nossaloja.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -12,6 +13,7 @@ import java.util.Set;
 @Data
 @Entity
 @Table(name = "TB_PRODUTO")
+@AllArgsConstructor
 public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
